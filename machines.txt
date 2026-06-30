@@ -1,0 +1,14 @@
+  
+Graviton4: 172.31.27.30
+Graviton5: 172.31.42.181
+Intel64: 172.31.51.79
+AMD64: 172.31.24.225
+  
+export TARGET="172.31.27.30:9200"
+export TARGET="172.31.42.181:9200"
+export TARGET="172.31.51.79:9200"
+export TARGET="172.31.24.225:9200"
+
+export TRACK=geopoint
+export TRACK=pmc
+export TRACK=http_logs
