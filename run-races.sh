@@ -35,7 +35,7 @@ main() {
     echo "Starting trails..."
     run_platform graviton4 172.31.27.30:9200
     run_platform graviton5 172.31.42.181:9200
-    run_platfrom intel64 172.31.51.79:9200
+    run_platform intel64 172.31.51.79:9200
     run_platform amd64 172.31.24.225:9200
     echo "All trials completed."
 }
