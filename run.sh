@@ -4,7 +4,7 @@ set -x
 
 rm -rf $HOME/.rally
 if [ ! -d $HOME/races/results ]; then
-   mkdir $HOME/races/results
+   mkdir -p $HOME/races/results
 fi
 if [ ! -d $HOME/races/logs ]; then
    mkdir $HOME/races/logs
